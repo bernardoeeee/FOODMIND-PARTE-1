@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="../assets/logo.jpg" type="image/jpg" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>Foodmind</title>
+</head>
+
+<body>
+  <header>
+    <div class="nav-logo">
+      <img src="../assets/logo.jpg" alt="" draggable="false" />
+    </div>
+
+    <ul class="nav-links">
+      <li class="links">
+        <i class="fa-solid fa-cog fa-spin fa-xl" style="--fa-animation-duration: 6s"></i>
+        <a href="../config/config.html">Configurações</a>
+      </li>
+      <li class="links">
+        <i class="fa-solid fa-carrot fa-bounce fa-xl" style="--fa-animation-duration: 2s"></i>
+        <a href="../planoAlimentar/PA.html">Plano Alimentar</a>
+      </li>
+      <li class="links">
+        <i class="fa-brands fa-nutritionix fa-bounce fa-xl" style="--fa-animation-duration: 2s"></i>
+        <a href="">Buscar Nutri</a>
+      </li>
+      <li class="links">
+        <i class="fa-solid fa-message fa-bounce fa-xl" style="--fa-animation-duration: 2s"></i>
+        <a href="">Chat</a>
+      </li>
+    </ul>
+
+    <button class="btn" onclick="SignUp(event)">
+      <i class="fa-solid fa-user fa-3x"></i>
+    </button>
+  </header>
+
+  <container class="container">
+    <div class="content">
+      <span class="blur"></span>
+      <span class="blur"></span>
+      <h2>Bem-vindo ao <span>FoodMind</span></h2>
+      <h4>
+        O FoodMind é um site pensado para quem busca melhorar a alimentação e
+        adotar um estilo de vida saudável, contando com o apoio de
+        nutricionistas especializados e um chat interativo para tirar dúvidas
+        em tempo real. Nele, você encontra receitas práticas e saborosas
+        alinhadas aos seus objetivos, dicas personalizadas para otimizar sua
+        dieta, orientações sobre planejamento alimentar e artigos informativos
+        sobre nutrição e bem-estar. Além disso, o site oferece um espaço
+        acolhedor onde você pode se inspirar, compartilhar experiências e
+        aprender a transformar sua relação com a comida de maneira leve e
+        prazerosa.
+      </h4>
+    </div>
+    <img class="image" src="../assets/carrot.jpg" draggable="false" />
+  </container>
+
+  <div class="title_receitas">
+    <h2>Receitas</h2>
+  </div>
+
+  
+  <section class="PrimeiraFileira">
+    <div class="card" style="width: 18rem">
+      <img src="https://www.receiteria.com.br/wp-content/uploads/pate-de-frango-com-maionese-fit-rotated.jpg" width="501" height="375" draggable="false">
+      <div class="card-body">
+        <h2 class="card-title">Patê de frango com maionese fit</h2>
+        <h4 class="card-text"></h4>
+      </div>
+    </div>
+
+    <div class="card" style="width: 18rem">
+      <img src="../assets/comida.jpg" class="card-img-top" alt="." draggable="false" />
+      <div class="card-body">
+        <h2 class="card-title">RECEITA</h2>
+        <h4 class="card-text"></h4>
+      </div>
+    </div>
+
+    <div class="card" style="width: 18rem">
+      <img src="../assets/comida.jpg" class="card-img-top" alt="." draggable="false" />
+      <div class="card-body">
+        <h2 class="card-title">RECEITA</h2>
+        <h4 class="card-text"></h4>
+      </div>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
